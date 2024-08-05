@@ -1,5 +1,5 @@
 [workspace]
 members = [
-    "src/todo_backend"
+    "todo"
 ]
 resolver = "2"

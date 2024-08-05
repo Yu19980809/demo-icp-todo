@@ -1,8 +1,8 @@
 {
   "canisters": {
-    "todo_backend": {
-      "candid": "src/todo_backend/todo_backend.did",
-      "package": "todo_backend",
+    "todo": {
+      "candid": "todo/can.did",
+      "package": "todo",
       "type": "rust"
     }
   },

@@ -1,0 +1,11 @@
+type TodoItem = record {
+    id: nat32;
+    content: text;
+    done: bool;
+};
+
+service : {
+    "get": () -> (vec TodoItem) query;
+    "add": (text) -> (nat32);
+    "mark_done": (nat32) -> (bool);
+}
